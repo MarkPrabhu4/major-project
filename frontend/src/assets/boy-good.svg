@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean Blue Sky -->
+  <rect width="200" height="200" fill="#E0F2FE"/>
+  <!-- Bright Sun -->
+  <circle cx="160" cy="40" r="20" fill="#FDE047" opacity="0.8">
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <!-- Green Plants -->
+  <path d="M0 200C40 180 60 190 100 200C140 180 160 190 200 200V200H0V200Z" fill="#22C55E"/>
+  <!-- Happy Boy -->
+  <circle cx="100" cy="110" r="40" fill="#FFD29D"/> <!-- Face -->
+  <circle cx="85" cy="100" r="4" fill="#000"/> <!-- Eye L -->
+  <circle cx="115" cy="100" r="4" fill="#000"/> <!-- Eye R -->
+  <path d="M80 130C80 130 100 150 120 130" stroke="#000" stroke-width="4" stroke-linecap="round"/> <!-- Smile -->
+  <path d="M60 150C60 150 100 130 140 150V200H60V150Z" fill="#3B82F6"/> <!-- Shirt -->
+</svg>

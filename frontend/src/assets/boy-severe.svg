@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Polluted Sky -->
+  <rect width="200" height="200" fill="#1E293B"/>
+  <!-- Toxic Haze -->
+  <circle cx="160" cy="40" r="25" fill="#A855F7" opacity="0.3">
+     <animate attributeName="r" values="25;30;25" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <path d="M0 200C40 180 60 190 100 200C140 180 160 190 200 200V200H0V200Z" fill="#0F172A"/>
+  <!-- Sad Boy -->
+  <circle cx="100" cy="110" r="40" fill="#FFD29D" opacity="0.8"/> <!-- Face -->
+  <circle cx="85" cy="100" r="4" fill="#000"/> <!-- Eye L -->
+  <circle cx="115" cy="100" r="4" fill="#000"/> <!-- Eye R -->
+  <path d="M120 145C120 145 100 125 80 145" stroke="#000" stroke-width="4" stroke-linecap="round"/> <!-- Frown -->
+  <path d="M60 150C60 150 100 130 140 150V200H60V150Z" fill="#7E22CE"/> <!-- Shirt -->
+</svg>

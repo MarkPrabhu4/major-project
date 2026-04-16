@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slightly Hazy Sky -->
+  <rect width="200" height="200" fill="#F1F5F9"/>
+  <!-- Hazy Sun -->
+  <circle cx="160" cy="40" r="20" fill="#FACC15" opacity="0.4"/>
+  <!-- Dull Plants -->
+  <path d="M0 200C40 180 60 190 100 200C140 180 160 190 200 200V200H0V200Z" fill="#84CC16"/>
+  <!-- Neutral Boy -->
+  <circle cx="100" cy="110" r="40" fill="#FFD29D"/> <!-- Face -->
+  <circle cx="85" cy="100" r="4" fill="#334155"/> <!-- Eye L -->
+  <circle cx="115" cy="100" r="4" fill="#334155"/> <!-- Eye R -->
+  <line x1="85" y1="135" x2="115" y2="135" stroke="#334155" stroke-width="4" stroke-linecap="round"/> <!-- Neutral -->
+  <path d="M60 150C60 150 100 130 140 150V200H60V150Z" fill="#64748B"/> <!-- Shirt -->
+</svg>
