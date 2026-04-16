@@ -70,4 +70,3 @@ backend/aqi_plot.py
 .ipynb_checkpoints/
 scratch/
 backend.py
-main.py
