@@ -19,7 +19,8 @@ import {
   useState,
 } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/predict-all-cities";
+const API_BASE = "https://aqi-backend-xlo9.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || `${API_BASE}/predict-all-cities`;
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 const REQUESTED_CITIES = [
   "Delhi",
@@ -356,7 +357,7 @@ export default function InteractiveDashboardApp() {
             <section className="mt-8 rounded-[2rem] border border-rose-400/20 bg-rose-500/10 p-8 text-rose-100 shadow-[0_20px_60px_rgba(127,29,29,0.25)]">
               <h2 className="text-2xl font-bold">Unable to load city predictions</h2>
               <p className="mt-3 max-w-2xl text-sm leading-7 text-rose-100/85">
-                The dashboard could not reach `http://127.0.0.1:8000/predict-all-cities`.
+                The dashboard could not reach `{API_URL}`.
               </p>
               <p className="mt-4 rounded-2xl border border-rose-300/20 bg-slate-950/40 px-4 py-3 font-mono text-xs text-rose-100/90">
                 {errorMessage}

@@ -14,8 +14,9 @@ export default function App() {
   const [pmValue, setPmValue] = useState("-");
   const [data, setData] = useState([]);
 
+  const API_BASE = "https://aqi-backend-xlo9.onrender.com";
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/predict")
+    fetch(`${API_BASE}/predict`)
       .then(res => res.json())
       .then(res => {
         setMetrics(res.metrics);

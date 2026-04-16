@@ -22,7 +22,8 @@ import boyModerate from "./assets/boy-moderate.png";
 import boyUnhealthy from "./assets/boy-unhealthy.png";
 import boySevere from "./assets/boy-severe.png";
 
-const API_URL = "http://127.0.0.1:8000/predict-all-cities";
+const API_BASE = "https://aqi-backend-xlo9.onrender.com";
+const API_URL = `${API_BASE}/predict-all-cities`;
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
 function getAqiStatus(aqi) {
